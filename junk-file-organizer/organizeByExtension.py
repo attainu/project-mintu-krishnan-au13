@@ -6,7 +6,6 @@ def organize_by_extension(path):
     try:
         all_files = os.listdir(path)
         all_ext = []
-        # split all file extensions from the dir
         for f in all_files:
             _, ext = os.path.splitext(f)
             if ext == "":
@@ -21,7 +20,6 @@ def organize_by_extension(path):
             if e.errno == errno.EEXIST:
                 pass
 
-        # #move all files to their respective dirs
         for f in all_files:
             _, ext = os.path.splitext(f)
             old_path = os.path.join(path, f)

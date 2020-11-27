@@ -6,7 +6,7 @@ Junk File Organizer helps to organize all your files by moving files into folder
 
 ## Contents
 - [Introduction](#Introduction)
-- [Main functionality of this code](## Main functionality of this code)
+- [Main functionality of this code](### Main functionality of this code)
 - [Setup](##setup)
 - [How to use this](## How to use this)
 - [What I used](## what i used )
@@ -16,7 +16,7 @@ Junk File Organizer helps to organize all your files by moving files into folder
 #Introduction
 
 
-## Main functionality of this code
+### Main functionality of this code
  * Organize by extension
  * Organize by size
  * Organize by year
@@ -33,6 +33,9 @@ python file.py --path C:\Users\praka\OneDrive\Desktop\Attainu\files --o size
 
 ### For organize with last used date
 python file.py --path C:\Users\praka\OneDrive\Desktop\Attainu\files --o date 
+
+### For running mac executible file
+go to path 'mac application/main-prompt.app/Contents/MacOS/main-prompt' and run it. 
 
 
 #### 1. Organize by extension
