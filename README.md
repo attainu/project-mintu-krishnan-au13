@@ -26,15 +26,15 @@ Junk File Organizer helps to organize all your files by moving files into folder
     1.	Clone this repo
     2.	Install Python 3
     3.	Install Flake8 library
-            1.	pip install flake8
-            2.	Run python -m flake8 command and check for any errors
+                1.	pip install flake8
+                2.	Run python -m flake8 command and check for any errors
     4.	Run python3 main.py -h
-            1.	There you can see all the details of the project
-            2.	-p/--path is the flag for specifying the path
-            3.	-o/--order is the flag for specifying the order
-            4.	-h/--help is the flag to get help
-            5.	Path is mandatory to specify
-            6.	Order is optional, by default the sorting order will be of type
+                1.	There you can see all the details of the project
+                2.	-p/--path is the flag for specifying the path
+                3.	-o/--order is the flag for specifying the order
+                4.	-h/--help is the flag to get help
+                5.	Path is mandatory to specify
+                6.	Order is optional, by default the sorting order will be of type
     5.	After running the program you will get a successful message 
     6.	Go to the path and look the folder the organized or not
 
@@ -80,6 +80,7 @@ By using this option user can organize their files by year. if a file is created
 ### For running mac executible file
 
 Go to path `mac application/main-prompt.app/Contents/MacOS/main-prompt` and run it. 
+
 
 ## What I Used :
     
