@@ -69,7 +69,7 @@ Junk File Organizer helps to organize all your files by moving files into folder
 ### 5. Organize by year
     by using this option user can organize their files by year. if a file is created in 2018, it will move to a 2018 folder
 
-####    python3 main.py -p /Users/mintukrishnan/Downloads -o year
+`python3 main.py -p /Users/mintukrishnan/Downloads -o year`
 
 
 ### For running mac executible file
