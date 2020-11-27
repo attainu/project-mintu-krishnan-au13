@@ -3,7 +3,7 @@ import shutil
 import datetime
 
 
-def organize_by_date(path):
+def organize_by_year(path):
     try:
         files = [
             file for file in os.listdir(path)
