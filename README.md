@@ -26,7 +26,7 @@ Junk File Organizer helps to organize all your files by moving files into folder
     1.	Clone this repo
     2.	Install Python 3
     3.	Install Flake8 library
-            1.	`pip install flake8`
+            1.	pip install flake8
             2.	Run python -m flake8 command and check for any errors
     4.	Run python3 main.py -h
             1.	There you can see all the details of the project
@@ -46,7 +46,7 @@ Junk File Organizer helps to organize all your files by moving files into folder
 ### 1. Organize by extension
     by using this option user can organize their files by their file extension in a given folder, folder will be created according to file extension and finally all files will be moved to a created folder.
 
-    [python3 main.py -p /Users/mintukrishnan/Downloads -o extension]
+    ** python3 main.py -p /Users/mintukrishnan/Downloads -o extension
 
 
 ### 2. Organize by size
