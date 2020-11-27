@@ -25,7 +25,7 @@ def organize_by_type(path):
                 shutil.move(os.path.join(path, file),
                             os.path.join(path, directory_name))
     except Exception:
-        print("Error Occurs")
+        print(Exception)
     else:
         print("")
         print("Success!! All files are organized by File Type")

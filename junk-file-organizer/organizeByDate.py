@@ -3,7 +3,7 @@ import shutil
 import datetime
 
 
-def organize_by_year(path):
+def organize_by_date(path):
     try:
         files = [
             file for file in os.listdir(path)
@@ -14,17 +14,15 @@ def organize_by_year(path):
             mtime = (os.stat(os.path.join(path, i)).st_mtime)
             timestamp = datetime.datetime.fromtimestamp(mtime).strftime(
                 '%Y-%m-%d')
-            m = timestamp.split("-")[0]
-
-            if not os.path.exists(os.path.join(path, m)):
-                os.mkdir(os.path.join(path, m))
-            shutil.move(os.path.join(path, i), os.path.join(path, m))
+            if not os.path.exists(os.path.join(path, timestamp)):
+                os.mkdir(os.path.join(path, timestamp))
+            shutil.move(os.path.join(path, i), os.path.join(path, timestamp))
 
     except Exception:
         print("Error Occurs")
     else:
         print("")
-        print("Success!! All files are organized by Year")
+        print("Success!! All files are organized by Date")
 
 
 def checkFile(filename):

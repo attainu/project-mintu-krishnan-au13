@@ -7,6 +7,7 @@ from organizeByYear import organize_by_year
 from organizeBySize import organize_by_size
 from organizeByExtension import organize_by_extension
 from organizeByType import organize_by_type
+from organizeByDate import organize_by_date
 
 
 def main():
@@ -15,20 +16,19 @@ def main():
 
     parser = argparse.ArgumentParser()
 
-    parser.add_argument(
-        '-p',
-        '--path',
-        metavar='',
-        required=True,
-        help='{path} - path of the directory to organize ')  # default='.',
+    parser.add_argument('-p',
+                        '--path',
+                        metavar='',
+                        required=True,
+                        help='{path} - path of the directory to organize ')
 
     parser.add_argument(
         '-o',
         '--order',
         default='type',
-        help='{extension,size,date,type} - the way you need to organize',
+        help='{extension,size,year,type,date} - the way you need to organize',
         metavar='',
-        choices=['extension', 'size', 'year', 'type'],
+        choices=['extension', 'size', 'year', 'type', 'date'],
     )
 
     args = parser.parse_args()
@@ -44,6 +44,8 @@ def main():
         organize_by_year(path)
     elif organizeBy == 'type':
         organize_by_type(path)
+    elif organizeBy == 'date':
+        organize_by_date(path)
     else:
         print('Wrong Choice for Organizing')
 

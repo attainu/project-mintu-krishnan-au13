@@ -9,6 +9,8 @@ def beautify():
     print("*" + " " * 73 + "*")
     print("*" + " " * 5 + "size      : " +
           " python3 main.py -o size -p <path>" + " " * 22 + "*")
+    print("*" + " " * 5 + "date      : " +
+          " python3 main.py -o date -p <path>" + " " * 22 + "*")
     print("*" + " " * 5 + "year      : " +
           " python3 main.py -o year -p <path>" + " " * 22 + "*")
     print("*" + " " * 5 + "type      : " +
@@ -24,8 +26,8 @@ def beautify():
     print("*" + " " * 5 + "-h / --help  : " + " for help " + " " * 43 + "*")
     print("*" + " " * 73 + "*")
     print("*" + " " * 73 + "*")
-    print("*" + " " * 5 +
-          "-p/--path <path>  &  -o/--order <order>  are mandatory " +
-          " " * 13 + "*")
+    print("*" + " " * 5 + "-p/--path <path>    -  mandatory " + " " * 35 + "*")
+    print("*" + " " * 5 + "-o/--order <order>  -  optional, default {type} " +
+          " " * 20 + "*")
     print("*" + " " * 73 + "*")
     print("*" * 75)
