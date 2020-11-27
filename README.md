@@ -44,32 +44,32 @@ Junk File Organizer helps to organize all your files by moving files into folder
 
 
 ### 1. Organize by extension
-    by using this option user can organize their files by their file extension in a given folder, folder will be created according to file extension and finally all files will be moved to a created folder.
+by using this option user can organize their files by their file extension in a given folder, folder will be created according to file extension and finally all files will be moved to a created folder.
 
-####    python3 main.py -p /Users/mintukrishnan/Downloads -o extension
+        python3 main.py -p /Users/mintukrishnan/Downloads -o extension
 
 
 ### 2. Organize by size
-    by using this option user can organize their files by their file size, B, KB, MB,GB etc used
+by using this option user can organize their files by their file size, B, KB, MB,GB etc used
 
-####    python3 main.py -p /Users/mintukrishnan/Downloads -o size
+        python3 main.py -p /Users/mintukrishnan/Downloads -o size
 
 
 ### 3. Organize by date
-    by using this option user can organize their files by last modified date. random folders will be created according to file's last used date and files will be moved to them.
+by using this option user can organize their files by last modified date. random folders will be created according to file's last used date and files will be moved to them.
 
-####    python3 main.py -p /Users/mintukrishnan/Downloads -o date
+        python3 main.py -p /Users/mintukrishnan/Downloads -o date
 
 ### 4. Organize by type
-    by using this option user can organize their files by their type of the file. if its a .pdf, it will move to the Document folder, if its a .jpg file it will move to the Image folder
+by using this option user can organize their files by their type of the file. if its a .pdf, it will move to the Document folder, if its a .jpg file it will move to the Image folder
 
-####    python3 main.py -p /Users/mintukrishnan/Downloads -o type
+        python3 main.py -p /Users/mintukrishnan/Downloads -o type
 
 
 ### 5. Organize by year
-    by using this option user can organize their files by year. if a file is created in 2018, it will move to a 2018 folder
+by using this option user can organize their files by year. if a file is created in 2018, it will move to a 2018 folder
 
-`python3 main.py -p /Users/mintukrishnan/Downloads -o year`
+        python3 main.py -p /Users/mintukrishnan/Downloads -o year`
 
 
 ### For running mac executible file
